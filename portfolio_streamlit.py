@@ -1,3 +1,9 @@
+#HOW TO RUN THIS CODE FROM GITHUB:
+#STEP-1: OPEN THE TERMINAL ON YOUR MACHINE.
+#STEP-2: RUN THIS CODE: pip install pandas pandas-datareader plotly yfinance pybind11 riskfolio riskfolio-lib datetime numpy scikit-learn fbprophet streamlit datetime
+#STEP-3: ONCE THE INSTALLATION IS DONE, RUN THIS CODE ON TERMINAL: streamlit run https://raw.githubusercontent.com/Chirag435/DATA606-Capstone-Project/main/portfolio_streamlit.py
+#STEP-4: SELECT THE GENERATED URL AND THE FRONT END WILL OPEN IN YOUR BROWSER.
+
 import streamlit as st
 import pandas as pd
 import numpy as np
