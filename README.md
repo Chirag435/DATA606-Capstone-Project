@@ -1,6 +1,9 @@
 # DATA606-Capstone-Project
 ## Portfolio Performance Analysis
 
+### Instruction:
+This project is a part of Capstone Study in Data Science graduate program in the University of Maryland Baltimore County.
+
 ### Overview:
 Portfolio Performance Analysis is a tool created in Python which allows investor to analyse their investment for making better decision on it. This tool
 incorporates user input for selecting stocks (Adjsuted closing price), choosing a market index as a benchmark, specifying start and end dates, allocating weights to the asset and determining the amount to be invested. Time series dataset for the selected stockcs, benchmark and T-bill rate are fetched from YahooFinance and FRED API respectively. This tool has three features:
@@ -40,6 +43,3 @@ This Portfolio Performance Analysis tool is productionlized using Streamlit to c
 ### Future Work:
 * At this time we are allowing user to input the weights to allocate to each asset. Another provided option is to distribute is equally. We want to optimize the weights to be allocated to each asset as per their performance.
 * Currently we have only deployed univariate analysis in this project. Adding more exogenous variables and performaing multivariate analysis for the model can result in higher accuracy. 
-
-### Instruction:
-This project is a part of Capston Study in Data Science graduate program in University of Maryland Baltimore County.
