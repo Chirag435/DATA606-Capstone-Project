@@ -21,6 +21,7 @@ Risk measures are evaluated by determining the rolling sharpe ratio. This gives 
 
 #### 3. Forecast Portfolio Return:
 Portfolio's return is forecasted in this feature for the next 30 days horizon. Statistical techniques are used to preprocess the data in ARIMA (Auto Regressive Integrated Moving Average) model. ARIMA model performance well when it comes to forecasting the time series data. It catches the trend and seasonilty in the pattern to make a forecast. The results are evauted using MAE (Mean Absolute Error), MAPE (Mean Absolute Percentage Error), MSE (Mean Squared Error) and RMSE (Root Mean Squared Error) matrices. Along with this, this feature tells investor how much profit or loss will incurr over the forecasted period. See attached image. 
+
 ![image](https://github.com/p-harshil/DATA606-Capstone-Project/assets/68314057/b1f3d8b1-c4c6-413d-9617-8c67ac91931a)
 
 ### About Dataset:
